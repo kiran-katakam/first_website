@@ -1,0 +1,48 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family:
+    "Montserrat", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+  font-weight: 500;
+  background-color: darkgray;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+body {
+  margin: 20px 20px;
+  background-color: #ff9500;
+  padding: 0px 20px 20px 20px;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 56px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.719);
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+ul {
+  font-size: 24px;
+}
+
+button {
+  font-size: large;
+  width: auto;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 16px;
+}
